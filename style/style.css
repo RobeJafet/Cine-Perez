@@ -10,6 +10,41 @@
     display: none;
 }
 
+body {
+    animation: entrada 1s;
+}
+
+@keyframes entrada {
+    from {
+        opacity: 0;
+        transform: translateY(-10px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+li:hover {
+    animation: transitionLi 2s;
+}
+
+@keyframes transitionLi {
+    from {
+        transform: translateY(0px)
+    }
+
+    to {
+        transform: translateY(-5px);
+    }
+}
+
+footer{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 68%, rgba(0,212,255,1) 100%);
+}
+
 .colorPagina1 {
     background-color: #22403F;
 }
@@ -94,7 +129,7 @@
     color: #f4f4f0;
 }
 
-.colorPagina3 input{
+.colorPagina3 input {
     width: 500px;
     padding: 12px 20px;
 }
@@ -183,16 +218,16 @@
     color: #f4f4f0;
 }
 
-.imagenNosotros{
-    position:absolute;
+.imagenNosotros {
+    position: absolute;
     top: 130px;
     left: 90px;
     width: 40vw;
     z-index: -1;
 }
 
-.posicionLetrasTitulo{
-    position:absolute;
+.posicionLetrasTitulo {
+    position: absolute;
     top: 150px;
     right: 180px;
     width: 400px;
@@ -200,8 +235,8 @@
     z-index: -1;
 }
 
-.posicionLetrasParrafo{
-    position:absolute;
+.posicionLetrasParrafo {
+    position: absolute;
     top: 340px;
     right: 180px;
     width: 400px;

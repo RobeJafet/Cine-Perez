@@ -58,11 +58,16 @@ li:hover {
 
 .pieContacto{
     position:absolute;
-    top:150vh;
+    top:110vh;
     left:28%;
     width: 40%;
     text-align: center;
     color: #f4f4f0;
+}
+
+textarea
+{
+  width:100%;
 }
 
 footer {
@@ -70,7 +75,7 @@ footer {
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 68%, rgba(0, 212, 255, 1) 100%);
 }
 .custom-toggler.navbar-toggler {
-    border-color: rgba(244, 244, 240, 1);
+    border-color: transparent;
 }
   
 .custom-toggler .navbar-toggler-icon {
@@ -149,7 +154,7 @@ footer {
     margin: 20px 0px 35px 50px;
 }
 
-.colorPagina3 h3 {
+main h3 {
     color: #f4f4f0;
     font-family: futura-pt, sans-serif;
     font-weight: 300;
@@ -158,36 +163,24 @@ footer {
 }
 
 
-.colorPagina3 form {
+main form {
     position: absolute;
-    top: 300px;
-    width: 800px;
+    top: 150px;
+    left: 5vw;
+    right: 5vw;
+    font-family: futura-pt, sans-serif;
     font-weight: 300;
     font-style: italic;
-    font-size: large;
+    font-size: medium;
     color: #f4f4f0;
 }
 
-.colorPagina3 input {
-    width: 500px;
+input {
+    width: 100%;
     padding: 12px 20px;
 }
 
-.colorPagina3 .formNombre {
-    position: absolute;
-    left: 100px;
-}
 
-.colorPagina3 .formEmail {
-    position: absolute;
-    left: 800px;
-}
-
-.colorPagina3 .formText {
-    position: absolute;
-    left: 100px;
-    top: 120px;
-}
 
 .colorPagina3 footer {
     position: absolute;
